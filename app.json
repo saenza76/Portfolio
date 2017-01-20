@@ -1,0 +1,8 @@
+{
+  "name": "Andres Saenz Portfolio",
+  "description": "Portfolio page for Andres Saenz",
+  "repository": "https://github.com/saenza76/portfolio",
+  "logo": "http://node-js-sample.herokuapp.com/node.svg",
+  "keywords": ["node", "express", "static"],
+  "image": "heroku/nodejs"
+}
