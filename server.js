@@ -13,7 +13,7 @@ app.use(express.static('./public'));
 
 var Contact = require('./models/Contact.js');
 
-mongoose.connect('mongodb://localhost/contactme');
+mongoose.connect('mongodb://heroku_4p49ks2d:btenpbnvks679bjq5bfp3dmgng@ds117869.mlab.com:17869/heroku_4p49ks2d'); 
 
 var db = mongoose.connection;
 
