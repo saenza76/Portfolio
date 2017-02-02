@@ -24,6 +24,7 @@
 		<link rel="stylesheet" href="css/font-awesome.min.css">
 		<link rel="stylesheet" href="css/designr-theme-cyan2.css">
 		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<link rel="stylesheet" href="../node_modules/aos/dist/aos.css">
 		
 		
 		<!-- ==============================================
@@ -213,7 +214,7 @@
 		
 			<div class="container">
 			
-				<div class="row skills">
+				<div class="row skills" data-aos="zoom-in">
 					
 					<h1 class="section-title scrollimation scale-in"><span>Experience</span> with</h1>
 
@@ -332,7 +333,7 @@
 						<!--==== Project Preview HTML ====-->
 						
 						<div class="sr-only project-description">
-							<p class="clearfix">Let's Make a Meal is a web application that lets users enter in ingredients to find different recipies to make.</p>
+							<p class="clearfix">Let's Make a Meal is a web application that lets users enter in ingredients to find different recipes to make.</p>
 							<p>This was a group project that used an API call to retrieve different recipes based on the ingredients entered. We stored information into a SQL database. The front end of the site was created using Materialize and custom CSS, HTML, Javascript, and JQuery.</p>
 							
 						</div>
@@ -454,7 +455,7 @@
 						
 						
 						<ul class="socials">
-							<li><a href="https://www.linkedin.com/in/andres-saenz-2a140749" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+							<li><a href="https://www.linkedin.com/in/andresgsaenz" target="_blank"><i class="fa fa-linkedin"></i></a></li>
 							<li><a href="https://github.com/saenza76" target="_blank"><i class="fa fa-github"></i></a></li>
 							<li><a href="mailto:andresgsaenz@gmail.com"><i class="fa fa-envelope"></i></a></li>
 						</ul>
@@ -548,6 +549,8 @@
 		<script src="js/contact.js"></script>
 		<script src="js/designr.js"></script>
 		<script src="js/sticker.min.js"></script>
+		<script src="../node_modules/aos/dist/aos.js"></script>
+		<script> AOS.init(); </script>
 		<script type="text/javascript">
         window.onload = function() {
             Sticker.init('.sticker');
